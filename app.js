@@ -9,6 +9,14 @@ let h3 = document.querySelector("h3");
 
 
 // used to start the game 
+let startGame = document.querySelector(".start-game");
+
+startGame.addEventListener("click" , function(){
+    if(!started){
+    started = true;
+    levelUp();
+    }
+});
 
 document.addEventListener("keypress" , function(){
     if(!started){
