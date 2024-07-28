@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  box-sizing: border-box;
+
+}
+
+.box-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin : 10px;
+}
+
+.box-container .box{
+  height : 150px;
+  width : 150px;
+  border : 6px solid black;
+  border-radius: 1.9rem;
+  margin : 1rem;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color : blue;
+}
+
+.yellow{
+  background-color : yellow;
+}
+.green{
+  background-color : green;
+}
+
+.flash{
+  background-color: white;
+}
