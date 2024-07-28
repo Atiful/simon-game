@@ -87,4 +87,8 @@ let btns = document.querySelectorAll(".box");
 for(btn of btns){
     btn.addEventListener("click" , buttonpress);
 }
+let resets= document.querySelector(".reset-btn");
+resets.addEventListener("click" , function()  {
+    window.location.reload();
+});
 
